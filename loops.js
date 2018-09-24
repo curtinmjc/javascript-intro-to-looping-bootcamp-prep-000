@@ -24,8 +24,6 @@ function doWhile(array) {
   }
   
   do {
-    
-  } while {
-    
-  }
+    array.pop();
+  } while (array.length > 0 && incrmentVariable());
 }
